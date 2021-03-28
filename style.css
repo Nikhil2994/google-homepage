@@ -4,14 +4,7 @@ body{
 }
 
 
-input[type=text] {
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-radius: 24px;
-   
-
-  }
+/***   Nav bar *******/   
 
 
 #nav-list{
@@ -52,11 +45,45 @@ li a {
       color: gray;
   }
 
+
+#button-div{
+    padding: 10px;
+}
+
+
+.search-button{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    color: gray;
+    width: 150px;
+
+}
+
+
+
+/*  search Bar  ******/
+
   #middle-part{
       text-align: center;
       margin-top: 100px;
 
   }
+
+
+
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 24px;
+    border: solid 1px gray;
+  }
+
+
+
+
+  /********    Footer **********/
 
   #footer-container{
       display: flex;
